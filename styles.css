@@ -1,0 +1,101 @@
+/* Estilos del juego */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1eeee;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.player-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.player-info {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: Green;
+}
+
+.player-hand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.card {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  border: 2px solid #be7878;
+  min-width: 80px;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.deck, .discard {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  border: 2px solid #1e1785;
+  min-width: 100px;
+  text-align: center;
+  
+}
+
+.deck:hover, .discard:hover {
+  transform: translateY(-10px);
+}
+
+.red {
+  background-color: #ff6666;
+  color: white;
+  border-color: #ff6666;
+}
+
+.green {
+  background-color: #66cc66;
+  color: white;
+  border-color: #66cc66;
+}
+
+.blue {
+  background-color: #6666ff;
+  color: white;
+  border-color: #6666ff;
+}
+
+.yellow {
+  background-color: #ffff66;
+  color: rgb(167, 52, 52);
+  border-color: #ffff66;
+}
+
+.center-area {
+  text-align: center;
+  margin: 20px;
+}
+
+.player-turn {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
